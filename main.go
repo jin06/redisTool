@@ -46,7 +46,7 @@ func main() {
 	for {
 		var commond string
 		var arg string
-		fmt.Print(">")
+		fmt.Printf("%s:%s[%s]>",Host,Port,DB)
 		_, err := fmt.Scanf("%s %s", &commond, &arg)
 		if err !=nil {
 			fmt.Println(err)
